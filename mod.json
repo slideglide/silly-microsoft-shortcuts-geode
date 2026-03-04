@@ -1,0 +1,79 @@
+{
+	"geode": "5.2.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "slideglide.silly-microsoft-shortcuts",
+	"name": "Silly Microsoft Shortcuts",
+	"version": "v1.0.0",
+	"developer": "slideglide",
+	"description": "Adds silly shortcuts from Microsoft Windows",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	},
+	"settings": {
+		"enabled": {
+			"name": "Enabled",
+			"description": "Toggle the mod itself",
+			"type": "bool",
+			"default": true
+		},
+		"allow-in-gameplay": {
+			"name": "Allow in Gameplay",
+			"description": "Whether should the shortcuts be pressable in gameplay or not",
+			"type": "bool",
+			"default": false
+		},
+		"allow-in-editor": {
+			"name": "Allow in Editor",
+			"description": "Whether should the shortcuts be pressable in the editor or not",
+			"type": "bool",
+			"default": true
+		},
+		"linkedin-shortcut": {
+			"name": "LinkedIn Shortcut",
+			"description": "Opens LinkedIn in your browser",
+			"type": "keybind",
+			"default": "Ctrl+Shift+Alt+Win+L"
+		},
+		"word-shortcut": {
+			"name": "Microsoft Word Shortcut",
+			"description": "Opens Microsoft Word in your browser",
+			"type": "keybind",
+			"default": "Ctrl+Shift+Alt+Win+W"
+		},
+		"teams-shortcut": {
+			"name": "Microsoft Teams Shortcut",
+			"description": "Opens Microsoft Teams in your browser",
+			"type": "keybind",
+			"default": "Ctrl+Shift+Alt+Win+T"
+		},
+		"excel-shortcut": {
+			"name": "Microsoft Excel Shortcut",
+			"description": "Opens Microsoft Excel in your browser",
+			"type": "keybind",
+			"default": "Ctrl+Shift+Alt+Win+X"
+		},
+		"powerpoint-shortcut": {
+			"name": "Microsoft Powerpoint Shortcut",
+			"description": "Opens Microsoft PowerPoint in your browser",
+			"type": "keybind",
+			"default": "Ctrl+Shift+Alt+Win+P"
+		},
+		"outlook-shortcut": {
+			"name": "Outlook Shortcut",
+			"description": "Opens Outlook in your browser",
+			"type": "keybind",
+			"default": "Ctrl+Shift+Alt+Win+O"
+		},
+		"onenote-shortcut": {
+			"name": "OneNote Shortcut",
+			"description": "Opens OneNote in your browser",
+			"type": "keybind",
+			"default": "Ctrl+Shift+Alt+Win+N"
+		}
+	}
+}
