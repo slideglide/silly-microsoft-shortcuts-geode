@@ -58,7 +58,7 @@
 			"default": "Ctrl+Shift+Alt+Win+X"
 		},
 		"powerpoint-shortcut": {
-			"name": "Microsoft Powerpoint Shortcut",
+			"name": "Microsoft PowerPoint Shortcut",
 			"description": "Opens Microsoft PowerPoint in your browser",
 			"type": "keybind",
 			"default": "Ctrl+Shift+Alt+Win+P"
